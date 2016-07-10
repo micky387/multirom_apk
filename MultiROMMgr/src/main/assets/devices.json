@@ -47,9 +47,9 @@
             "names": [ "oneplus3", "OnePlus3" ],
             "ubuntu_touch": {
                 "enabled": false,
-                "base_url": ""
+                "base_url": "https://raw.githubusercontent.com/MR-op3/extra/mr/oneplus3/manifest.json"
             },
-            "official": false,
+            "official": true,
             "devices": [
                 {
                     "name": "recovery",
