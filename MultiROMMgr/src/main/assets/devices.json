@@ -44,12 +44,12 @@
             ]
         },
         {
-            "names": [ "oneplus3", "OnePus3" ],
+            "names": [ "oneplus3", "OnePlus3" ],
             "ubuntu_touch": {
                 "enabled": false,
                 "base_url": ""
             },
-            "official": true,
+            "official": false,
             "devices": [
                 {
                     "name": "recovery",
