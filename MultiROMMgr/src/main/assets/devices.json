@@ -66,6 +66,28 @@
             ]
         },
         {
+            "names": [ "wt88047", "Redmi-2" ],
+            "ubuntu_touch": {
+                "enabled": false,
+                "base_url": ""
+            },
+            "official": false,
+            "devices": [
+                {
+                    "name": "recovery",
+                    "path": "/dev/block/bootdevice/by-name/recovery"
+                },
+                {
+                    "name": "boot",
+                    "path": "/dev/block/bootdevice/by-name/boot"
+                },
+                {
+                    "name": "cache",
+                    "path": "/dev/block/bootdevice/by-name/cache"
+                }
+            ]
+        },
+        {
             "names": [ "grouper", "tilapia" ],
             "ubuntu_touch": {
                 "enabled": false
