@@ -88,6 +88,28 @@
             ]
         },
         {
+            "names": [ "lux" ],
+            "ubuntu_touch": {
+                "enabled": false,
+                "base_url": ""
+            },
+            "official": false,
+            "devices": [
+                {
+                    "name": "recovery",
+                    "path": "/dev/block/platform/soc.0/by-name/recovery"
+                },
+                {
+                    "name": "boot",
+                    "path": "/dev/block/platform/soc.0/by-name/boot"
+                },
+                {
+                    "name": "cache",
+                    "path": "/dev/block/platform/soc.0/by-name/cache"
+                }
+            ]
+        },
+        {
             "names": [ "grouper", "tilapia" ],
             "ubuntu_touch": {
                 "enabled": false
