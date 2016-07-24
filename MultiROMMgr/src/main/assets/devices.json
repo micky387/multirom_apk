@@ -44,10 +44,54 @@
             ]
         },
         {
+            "names": [ "onyx" ],
+            "ubuntu_touch": {
+                "enabled": false,
+                "base_url": ""
+            },
+            "official": true,
+            "devices": [
+                {
+                    "name": "recovery",
+                    "path": "/dev/block/bootdevice/by-name/recovery"
+                },
+                {
+                    "name": "boot",
+                    "path": "/dev/block/bootdevice/by-name/boot"
+                },
+                {
+                    "name": "cache",
+                    "path": "/dev/block/bootdevice/by-name/cache"
+                }
+            ]
+        },
+        {
+            "names": [ "oneplus2", "OnePlus2" ],
+            "ubuntu_touch": {
+                "enabled": false,
+                "base_url": "https://www.dropbox.com/s/8hw1v46cm1zzmx0/manifest.json?dl=1"
+            },
+            "official": true,
+            "devices": [
+                {
+                    "name": "recovery",
+                    "path": "/dev/block/bootdevice/by-name/recovery"
+                },
+                {
+                    "name": "boot",
+                    "path": "/dev/block/bootdevice/by-name/boot"
+                },
+                {
+                    "name": "cache",
+                    "path": "/dev/block/bootdevice/by-name/cache"
+                }
+            ]
+        },
+        {
             "names": [ "oneplus3", "OnePlus3" ],
             "ubuntu_touch": {
                 "enabled": false,
-                "base_url": "https://raw.githubusercontent.com/MR-op3/extra/mr/oneplus3/manifest.json"
+                "base_url": "https://www.dropbox.com/s/k8xcu9enentpnm4/manifest.json?dl=1"
             },
             "official": true,
             "devices": [
