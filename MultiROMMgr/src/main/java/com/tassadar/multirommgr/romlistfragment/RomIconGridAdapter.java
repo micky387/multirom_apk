@@ -51,6 +51,7 @@ public class RomIconGridAdapter extends BaseAdapter {
             R.drawable.romic_firefox,
             R.drawable.romic_slimkat,
             R.drawable.romic_validus,
+            R.drawable.romic_tesla,
             R.drawable.romic_tipsy
     };
 
