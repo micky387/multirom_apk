@@ -12,6 +12,9 @@
     <color name="rom_list_widget_header">#ff000000</color>
     <color name="notification_bg">#ff787878</color>
     <color name="card_background">#ff101010</color>
+    <color name="activity_background">#ff00000</color>
+    <color name="activity_text_color">#fffbbbbbb</color>
+    <color name="drawer_background">#ff101010</color>
 
     <drawable name="light_blue">#ff787878</drawable>
     <drawable name="dark_blue">#ff787878</drawable>

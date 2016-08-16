@@ -87,7 +87,7 @@
             android:visibility="gone"
             android:maxLines="10"
             android:textStyle="bold"
-            android:textColor="#000"/>
+            android:textColor="@color/text_light"/>
     </LinearLayout>
 
 </LinearLayout>
