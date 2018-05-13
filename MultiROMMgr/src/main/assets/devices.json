@@ -809,6 +809,28 @@
             ]
         },
         {
+            "names": [ "trlteatt", "trlte", "trltecan", "trltedt", "trltespr", "trltetmo", "trlteusc", "trltevzw", "trltexx" ],
+            "ubuntu_touch": {
+                "enabled": false,
+                "base_url": ""
+            },
+            "official": false,
+            "devices": [
+                {
+                    "name": "recovery",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+                },
+                {
+                    "name": "boot",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/boot"
+                },
+                {
+                    "name": "cache",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/cache"
+                }
+            ]
+        },
+        {
             "names": [ "angler" ],
             "manifest_url": "https://multirom-nexus6p.github.io/manifest.json",
             "check_gpg": false,
