@@ -787,7 +787,7 @@
             ]
         },
         {
-            "names": [ "tblte", "tbltexx", "tbltedt" ],
+            "names": [ "tblteatt", "tblte", "tbltecan", "tbltedt", "tbltespr", "tbltetmo", "tblteusc", "tbltevzw", "tbltexx" ],
             "ubuntu_touch": {
                 "enabled": false,
                 "base_url": ""
