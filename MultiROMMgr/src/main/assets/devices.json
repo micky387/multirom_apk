@@ -794,6 +794,7 @@
                 "enabled": false,
                 "base_url": ""
             },
+            "official": true,
             "devices": [
                 {
                     "name": "recovery",
