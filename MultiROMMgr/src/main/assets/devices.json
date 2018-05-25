@@ -788,11 +788,12 @@
         },
         {
             "names": [ "tblteatt", "tblte", "tbltecan", "tbltedt", "tbltespr", "tbltetmo", "tblteusc", "tbltevzw", "tbltexx" ],
+            "manifest_url": "https://raw.githubusercontent.com/micky387/multirom-dev.github.io/master/tblte/manifest.json",
+            "check_gpg": false,
             "ubuntu_touch": {
                 "enabled": false,
                 "base_url": ""
             },
-            "official": false,
             "devices": [
                 {
                     "name": "recovery",
